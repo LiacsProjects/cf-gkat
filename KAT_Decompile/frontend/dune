@@ -1,0 +1,25 @@
+(library
+ (name clang2CFGKAT)
+ (modules clang2CFGKAT)
+ (libraries KAT_Decompile clangml))
+
+(executable
+ (name comparecfgkat)
+ (modules comparecfgkat)
+ (public_name comparecfgkat)
+ (modes byte exe)
+ (libraries clang2CFGKAT))
+
+(executable
+ (name convertfun)
+ (modules convertfun)
+ (public_name convertfun)
+ (modes byte exe)
+ (libraries clang2CFGKAT))
+
+(executable
+ (name blinder)
+ (modules blinder)
+ (public_name blinder)
+ (modes byte exe)
+ (libraries clang2CFGKAT))

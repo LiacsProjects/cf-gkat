@@ -1,0 +1,5 @@
+(executable
+ (name CtoCFGKAT)
+ (public_name CtoCFGKAT)
+ (modes byte exe)
+ (libraries KAT_Decompile FrontC))

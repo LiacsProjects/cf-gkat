@@ -1,0 +1,5 @@
+(library
+ (public_name KAT_Decompile)
+ (name KAT_Decompile)
+ (libraries unionFind unix qcheck))
+(include_subdirs qualified)
