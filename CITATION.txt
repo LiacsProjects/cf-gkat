@@ -1,0 +1,1 @@
+Zhang, C., Kappé, T., Narvaéz, D. E., & Naus, N. (2024). CF-GKAT: Efficient Validation of Control-Flow Transformations (Artifact). Zenodo. https://doi.org/10.5281/zenodo.13938565
